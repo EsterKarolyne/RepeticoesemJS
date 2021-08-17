@@ -1,0 +1,130 @@
+/*cores: #003f88 #00296b #c2e1ff #ffd60a #f5c000*/
+@font-face {
+    font-family: Letric;
+    src: url(Letric_PERSONAL_USE_ONLY.otf);
+}
+
+
+
+/*header*/
+body{
+    background-color: #c2e1ff ;
+
+}
+
+header{
+    display: flex;
+    background-color:#003f88e0;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px;
+}
+
+h1{
+    font-family:Letric;
+    margin-left: 20px;
+
+}
+
+ul{
+    display: flex;
+
+}
+
+li{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 80px;
+}
+
+
+/*body*/
+
+main{
+    background-color: white;
+    border-radius: 30px;
+    width: 1300px;
+    height: 1000px ;
+    margin: auto;
+    box-shadow: 1px 1px 3px;
+    margin-top: 20px;
+}
+
+section h2{
+    font-family: Letric;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 190px;
+}
+
+section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+input{
+    border-radius:4px;
+}
+
+.button {
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.button:hover{
+    background-color: #003f88ef;
+    color: white;
+}
+
+.resp{
+    background-color:rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    
+}
+
+.cal{
+    width: 400px;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.76);
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+
+.container{
+    background-color:#ffd60a ;
+    border-radius: 20px;
+    width: 450px;
+    height: 600px;
+    justify-content: center;
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+    
+}
+
+
+/*footer*/
+
+
+footer{
+    background-color:#f5c000b4;
+    border-radius: 10px;
+    margin-top: 10px ;
+}
+
+footer p {
+    margin-left: 600px;
+    font-family: cursive ;
+}

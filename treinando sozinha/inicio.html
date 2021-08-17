@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <title>Calculadora IMC e Calculadora númerica</title>
+</head>
+<body>
+    <header>
+        <h1>Calculando</h1>
+        <ul>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+
+    </header>
+
+
+    <main>
+        
+        <section class="container">
+            <h2>IMC</h2>
+            <div>
+                <p>Nome: <input type="name" id="nome"></p>
+                <p>Altura: <input type="number" id="altura"></p>
+                <p>Peso: <input type="number" id="peso"></p>
+
+                <input class="button" type="button" value="Calcular" onclick="calcimc() ">
+            </div>
+
+            <div id ="resimc" class="resp"><p>Resposta</p></div>
+
+
+
+
+        </section>
+
+        <section class="container">
+            <h2>Padrão</h2>
+            <div>
+                <p>&#x2795;<input id="adi-um" type="number"> + <input id="adi-dois" type="number"> = </p>
+
+                <p>&#x2796;<input id="sub-um" type="number"> - <input id="sub-dois" type="number"> = </p>
+
+                <p>✖️<input id="mult-um" type="number"> x <input id="mult-dois" type="number"> = </p>
+
+                <p>&#x2797;<input id="divisao-um" type="number"> / <input id="divisao-dois" type="number"> = </p>
+
+                <input class="button" type="button" value="Calcular" onclick="calculadora()">
+            </div>
+            <div class="cal" id="rescalc3" class="resp"><p>Resposta da soma</p></div>
+            <div class="cal" id="rescalc2" class="resp"><p>Resposta da subtração</p></div>
+            <div class="cal" id="rescalc1" class="resp"><p>Resposta da multiplicação</p></div>
+            <div class="cal" id="rescalc4" class="resp"><p>Resposta da divisão</p></div>
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <footer><p>&copy; Ester Karolyne</p> </footer>
+
+    <script src="inicio.js"></script>
+
+
+
+</body>
+</html>
